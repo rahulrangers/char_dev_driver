@@ -42,7 +42,7 @@ make all
 
 Use `insmod` to insert the module into the kernel:
 ```sh
-sudo insmod mycdev.ko
+sudo insmod chrdev_kernel.ko
 ```
 
 Verify the device registration:
